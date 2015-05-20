@@ -1,15 +1,14 @@
-﻿// package.json
-
-{
-    "name": "Scooper-cloudbackend",
-    "description": "",
-    "version": "0.0.1",
-    "private": true,
-    "main": "server.js",
-    "dependencies": {
-        // "express": "~3.4.4",
-        // "express-session": "~1.10.3",
-        "express": "latest",
-        "express-session": "latest"
-    }
+﻿{
+  "name": "mobiletest",
+  "description": "",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "express": "latest",
+    "express-session":  "latest",
+    "morgan": "latest",
+    "body-parser": "latest",
+    "method-override": "latest"
+  }
 }
