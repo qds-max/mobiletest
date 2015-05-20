@@ -1,0 +1,14 @@
+[global]
+ApplicationName=mobiletest
+AwsCredentialFile=C:\Users\Max_2\.elasticbeanstalk\aws_credential_file
+DevToolsEndpoint=git.elasticbeanstalk.us-west-2.amazonaws.com
+EnvironmentName=mobiletest-env
+EnvironmentTier=WebServer::Standard::1.0
+EnvironmentType=LoadBalanced
+InstanceProfileName=aws-elasticbeanstalk-ec2-role
+OptionSettingFile=C:\Users\Max_2\Documents\GitHub\mobiletest\.elasticbeanstalk\optionsettings.mobiletest-env
+RdsEnabled=No
+Region=us-west-2
+ServiceEndpoint=https://elasticbeanstalk.us-west-2.amazonaws.com
+SolutionStack=64bit Amazon Linux 2015.03 v1.3.1 running Node.js
+
