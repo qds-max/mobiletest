@@ -8,7 +8,7 @@ var methodOverride = require('method-override');
 var http = require('http');
 var app = express();
 // Setting up the port right now at 5858
-var port = process.env.PORT || 5858;
+var port = process.env.PORT || 80;
 
 app.use(morgan('dev'));                                 // log every request to the console
 app.use(bodyParser.urlencoded({ extended: false }));    // parse application/x-www-form-urlencoded
