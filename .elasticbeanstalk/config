@@ -1,5 +1,6 @@
 [global]
 ApplicationName=mobiletest
+ApplicationVersionName=Sample Application
 AwsCredentialFile=C:\Users\Max_2\.elasticbeanstalk\aws_credential_file
 DevToolsEndpoint=git.elasticbeanstalk.us-west-2.amazonaws.com
 EnvironmentName=mobiletest-env
